@@ -20,8 +20,8 @@
     <!-- Nav Item - Applying Leave -->
     <li class="nav-item {{ Request::is('apply-leave') ? 'active' : '' }}">
         <a class="nav-link" href="{{ url('/apply-leave') }}">
-            <i class="fas fa-fw fa-file"></i>
-            <span>Applying Leave</span></a>
+            <i class="fas fa-fw fa-calendar"></i>
+            <span>Attendance Management</span></a>
     </li>
 
 
